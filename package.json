@@ -1,5 +1,5 @@
 {
-  "name": "LizGuRo-md-links",
+  "name": "lizguro-md-links",
   "version": "0.1.0",
   "description": "MarkDown Links @ Laboratoria",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "bin": {
     "md-Links": "bin/cli.js"
   },
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "eslint": "eslint --ext .js src/ test/",
     "eslintfix": "eslint -- --fix",

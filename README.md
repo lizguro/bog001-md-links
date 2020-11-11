@@ -65,10 +65,26 @@ El código esta escrito en lenguaje javascrypt.
 Para agregar el modulo, instala:
 
 ```
-npm install
+npm install lizguroart/bog001-md-links
 ```
 
 ## 8. Modo de Uso
+
+Argumentos
+
+* path: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es relativa, debe resolverse con respecto al directorio desde donde se invoca node (current working directory).
+* options: Un objeto con las siguientes propiedades:
+    * validate: Booleano que determina si se desea validar los links encontrados.
+
+Para poder extraer los archivos de un archivo específico ejecuta el siguiente comando Comando "md-Links" + la ruta de tu archivo md-links ejemplo.md
+
+Opciones: Si deseas validar los link y/o ver sus estadisticas ejecuta el siguiente comando
+
+```--validate``` (Verifica si el link funciona o no. Si el link resulta en una redirección a una URL el link se considerará como ✔ OK en caso contrario ✖ error, not found)
+
+```--stats``` (Será un texto con estadísticas básicas sobre los links).
+
+```--validate--stast```(Para obtener estadísticas que necesiten de los resultados de la validación).
 
 ## 9. Versión <img src="./img/version.png" width="23">
 

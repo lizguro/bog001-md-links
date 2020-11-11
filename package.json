@@ -27,6 +27,7 @@
     "jsdom": "^16.4.0",
     "markdown-it": "^11.0.1",
     "marked": "^1.2.0",
+    "minimist": "^1.2.5",
     "node-fetch": "^2.6.1"
   },
   "repository": {

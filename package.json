@@ -1,21 +1,15 @@
 {
-  "name": "lizguro-md-links",
+  "name": "@lizguro/md-links",
   "version": "0.1.0",
   "description": "MarkDown Links @ Laboratoria",
   "main": "index.js",
-  "keywords": [
-    "javascript",
-    "jest"
-  ],
+  "keywords": [],
   "bin": {
-    "md-Links": "bin/cli.js"
+    "md-Links": "./bin/cli.js"
   },
   "license": "ISC",
   "scripts": {
-    "eslint": "eslint --ext .js src/ test/",
-    "eslintfix": "eslint -- --fix",
     "test": "jest --verbose --coverage",
-    "md-Links": "node bin/cli.js"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -26,7 +20,6 @@
     "jest": "^24.8.0"
   },
   "directories": {
-    "lib": "lib",
     "test": "test"
   },
   "dependencies": {

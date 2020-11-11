@@ -15,7 +15,7 @@
     "eslint": "eslint --ext .js src/ test/",
     "eslintfix": "eslint -- --fix",
     "test": "jest --verbose --coverage",
-    "start": "node index.js"
+    "md-Links": "node bin/cli.js"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

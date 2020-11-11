@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "scripts": {
-    "test": "jest --verbose --coverage",
+    "test": "jest --verbose --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

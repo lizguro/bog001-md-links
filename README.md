@@ -65,10 +65,13 @@ El código esta escrito en lenguaje javascrypt.
 Para agregar el modulo, instala:
 
 ```
-npm install lizguroart/bog001-md-links
+npm install -g lizguroart/bog001-md-links
 ```
 
 ## 8. Modo de Uso
+
+`md-Links(path, options)`
+
 
 Argumentos
 
@@ -80,11 +83,35 @@ Para poder extraer los archivos de un archivo específico ejecuta el siguiente c
 
 Opciones: Si deseas validar los link y/o ver sus estadisticas ejecuta el siguiente comando
 
-```--validate``` (Verifica si el link funciona o no. Si el link resulta en una redirección a una URL el link se considerará como ✔ OK en caso contrario ✖ error, not found)
+`--validate` (Verifica si el link funciona o no. Si el link resulta en una redirección a una URL el link se considerará como ✔ OK en caso contrario ✖ error, not found)
 
-```--stats``` (Será un texto con estadísticas básicas sobre los links).
+`--stats` (Será un texto con estadísticas básicas sobre los links).
 
-```--validate--stast```(Para obtener estadísticas que necesiten de los resultados de la validación).
+`--validate--stast`(Para obtener estadísticas que necesiten de los resultados de la validación).
+
+Ejemplo:
+
+`md-Links ejemplo.md --validate`
+```
+href: https://es.wikipedia.org/wiki/Markdown
+Text: Markdown
+path: D:\LEARNING\1. PROGRAMACIÓN\LABORATORIA\PROYECTOS\BOG001-data-lovers\Archivo
+statusCode: 200
+status: OK
+```
+
+`md-Links ejemplo.md --stats`
+```
+Total Links: 4
+Unique Links: 4
+```
+
+`md-Links ejemplo.md --validate --stats`
+```
+Total Links: 4
+Unique: 4
+Broken: 1
+```
 
 ## 9. Versión <img src="./img/version.png" width="23">
 
